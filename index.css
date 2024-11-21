@@ -1,0 +1,36 @@
+.design{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.heading{
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.btn-custom {
+    background-color: #55b46b; 
+    color: #ffffff; 
+    border: none; 
+    padding: 10px 20px;
+    font-size: 16px; 
+    font-weight: bold; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+  }
+  
+  .btn-custom:hover {
+    background-color: #218838; 
+    transform: scale(1.05); 
+  }
+  
+  .btn-custom:active {
+    background-color: #1e7e34; 
+    transform: scale(0.95); 
+  }
+  
